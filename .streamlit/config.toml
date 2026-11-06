@@ -1,0 +1,22 @@
+[theme]
+base = "light"
+font = "sans serif"
+headingFont = "sans serif"
+showSidebarBorder = true
+showWidgetBorder = true
+
+[theme.light]
+primaryColor = "#0F766E"
+backgroundColor = "#F5F8FB"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#172B3A"
+borderColor = "#D9E3EA"
+chartCategoricalColors = ["#0F766E", "#2563EB", "#D97706", "#7C3AED", "#DC2626"]
+
+[theme.dark]
+primaryColor = "#2DD4BF"
+backgroundColor = "#0B1220"
+secondaryBackgroundColor = "#111B2B"
+textColor = "#E5EDF5"
+borderColor = "#28374B"
+chartCategoricalColors = ["#2DD4BF", "#60A5FA", "#FBBF24", "#C4B5FD", "#FB7185"]

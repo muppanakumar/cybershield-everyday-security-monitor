@@ -1,0 +1,61 @@
+timestamp,source,user,src_ip,event_type,result,device,bytes
+2026-11-01T09:00:00Z,Windows Security,alice,192.0.2.10,login,success,laptop-01,0
+2026-11-01T09:08:00Z,Windows Security,alice,192.0.2.10,file_access,success,laptop-01,1200
+2026-11-01T09:16:00Z,Home firewall,bob,192.0.2.20,network,allowed,router-01,3400
+2026-11-01T10:02:00Z,Linux auth,bob,192.0.2.20,login,success,server-01,0
+2026-11-01T10:20:00Z,Application,alice,192.0.2.10,logout,success,laptop-01,0
+2026-11-01T11:05:00Z,Windows Security,carol,192.0.2.30,login,success,desktop-02,0
+2026-11-01T11:12:00Z,Home firewall,carol,192.0.2.30,network,allowed,router-01,2100
+2026-11-01T12:15:00Z,Application,bob,192.0.2.20,file_access,success,server-01,800
+2026-11-01T13:02:00Z,Windows Security,alice,192.0.2.10,login,success,laptop-01,0
+2026-11-01T13:10:00Z,Application,alice,192.0.2.10,file_access,success,laptop-01,450
+2026-11-01T14:00:00Z,Linux auth,bob,192.0.2.20,login,success,server-01,0
+2026-11-01T14:24:00Z,Home firewall,bob,192.0.2.20,network,allowed,router-01,1700
+2026-11-01T15:10:00Z,Windows Security,carol,192.0.2.30,login,success,desktop-02,0
+2026-11-01T15:22:00Z,Application,carol,192.0.2.30,file_access,success,desktop-02,900
+2026-11-02T09:03:00Z,Windows Security,alice,192.0.2.10,login,success,laptop-01,0
+2026-11-02T09:18:00Z,Application,alice,192.0.2.10,file_access,success,laptop-01,320
+2026-11-02T10:00:00Z,Home firewall,bob,192.0.2.20,network,allowed,router-01,2900
+2026-11-02T10:40:00Z,Linux auth,bob,192.0.2.20,login,success,server-01,0
+2026-11-02T11:30:00Z,Windows Security,carol,192.0.2.30,login,success,desktop-02,0
+2026-11-02T12:15:00Z,Application,alice,192.0.2.10,logout,success,laptop-01,0
+2026-11-02T13:00:00Z,Home firewall,carol,192.0.2.30,network,allowed,router-01,4100
+2026-11-02T14:05:00Z,Application,bob,192.0.2.20,file_access,success,server-01,1200
+2026-11-02T15:10:00Z,Windows Security,alice,192.0.2.10,login,success,laptop-01,0
+2026-11-02T16:30:00Z,Application,carol,192.0.2.30,file_access,success,desktop-02,780
+2026-11-03T09:12:00Z,Windows Security,alice,192.0.2.10,login,success,laptop-01,0
+2026-11-03T10:01:00Z,Linux auth,bob,192.0.2.20,login,success,server-01,0
+2026-11-03T11:25:00Z,Home firewall,alice,192.0.2.10,network,allowed,router-01,1900
+2026-11-03T12:10:00Z,Application,carol,192.0.2.30,file_access,success,desktop-02,690
+2026-11-03T13:30:00Z,Windows Security,bob,192.0.2.20,logout,success,server-01,0
+2026-11-03T14:18:00Z,Application,alice,192.0.2.10,file_access,success,laptop-01,510
+2026-11-03T15:45:00Z,Home firewall,carol,192.0.2.30,network,allowed,router-01,2400
+2026-11-04T09:05:00Z,Windows Security,alice,192.0.2.10,login,success,laptop-01,0
+2026-11-04T10:10:00Z,Application,bob,192.0.2.20,file_access,success,server-01,1100
+2026-11-04T11:00:00Z,Linux auth,carol,192.0.2.30,login,success,desktop-02,0
+2026-11-04T12:40:00Z,Home firewall,bob,192.0.2.20,network,allowed,router-01,3600
+2026-11-04T13:20:00Z,Application,alice,192.0.2.10,logout,success,laptop-01,0
+2026-11-04T14:12:00Z,Windows Security,carol,192.0.2.30,login,success,desktop-02,0
+2026-11-04T15:05:00Z,Application,bob,192.0.2.20,file_access,success,server-01,950
+2026-11-05T09:07:00Z,Windows Security,alice,192.0.2.10,login,success,laptop-01,0
+2026-11-05T09:42:00Z,Application,alice,192.0.2.10,file_access,success,laptop-01,600
+2026-11-05T10:15:00Z,Home firewall,carol,192.0.2.30,network,allowed,router-01,2800
+2026-11-05T11:00:00Z,Linux auth,bob,192.0.2.20,login,success,server-01,0
+2026-11-05T12:20:00Z,Application,carol,192.0.2.30,file_access,success,desktop-02,720
+2026-11-05T13:55:00Z,Windows Security,alice,192.0.2.10,login,success,laptop-01,0
+2026-11-05T14:10:00Z,Home firewall,bob,192.0.2.20,network,allowed,router-01,3100
+2026-11-05T15:30:00Z,Application,alice,192.0.2.10,file_access,success,laptop-01,430
+2026-11-06T09:00:00Z,Windows Security,alice,192.0.2.10,login,success,laptop-01,0
+2026-11-06T09:14:00Z,Linux auth,bob,192.0.2.20,login,success,server-01,0
+2026-11-06T10:22:00Z,Home firewall,carol,192.0.2.30,network,allowed,router-01,2500
+2026-11-06T11:48:00Z,Application,alice,192.0.2.10,file_access,success,laptop-01,680
+2026-11-06T12:30:00Z,Windows Security,carol,192.0.2.30,login,success,desktop-02,0
+2026-11-06T13:40:00Z,Application,bob,192.0.2.20,file_access,success,server-01,1050
+2026-11-06T14:05:00Z,Home firewall,bob,192.0.2.20,network,allowed,router-01,2200
+2026-11-06T14:30:00Z,Windows Security,alice,198.51.100.77,login,failed,unknown-device,0
+2026-11-06T14:31:00Z,Windows Security,alice,198.51.100.77,login,failed,unknown-device,0
+2026-11-06T14:32:00Z,Windows Security,alice,198.51.100.77,login,failed,unknown-device,0
+2026-11-06T14:33:00Z,Windows Security,alice,198.51.100.77,login,failed,unknown-device,0
+2026-11-06T14:34:00Z,Windows Security,alice,198.51.100.77,login,failed,unknown-device,0
+2026-11-06T14:40:00Z,Windows Security,alice,203.0.113.99,login,success,tablet-new,0
+2026-11-06T14:42:00Z,Linux auth,admin,192.0.2.20,privilege_change,success,server-01,0
